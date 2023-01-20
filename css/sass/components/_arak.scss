@@ -1,0 +1,15 @@
+.arak {
+  table {
+    color: $betuszin;
+    font-family: $betuarak;
+    font-size: 2em;
+    font-weight: bolder;
+    width: 100%;
+
+    td {
+      &:nth-child(2) {
+        text-align: right;
+      }
+    }
+  }
+}

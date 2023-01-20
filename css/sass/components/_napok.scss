@@ -1,0 +1,13 @@
+.napok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .logo {
+    width: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

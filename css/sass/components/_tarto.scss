@@ -1,0 +1,47 @@
+.tarto {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px $boxshadowszin;
+  font-family: $betualtalanos;
+  height: 100%;
+  margin: auto;
+  padding: 5px 5px;
+  width: 60vw;
+  background-color: $tartoszin;
+
+  h1 {
+    color: $betuszin;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .hetek {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  hr {
+    background-color: $hrszin;
+    border: none;
+    height: 2px;
+
+    &.fel {
+      height: 1px;
+    }
+  }
+
+  p {
+    color: $betuszin;
+    font-family: $betuarak;
+
+    &.kozep {
+      font-family: $betualtalanos;
+      text-align: center;
+    }
+
+    &.jobb {
+      font-family: $betualtalanos;
+      text-align: right;
+    }
+  }
+}

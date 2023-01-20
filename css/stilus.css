@@ -1,0 +1,80 @@
+.tarto {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(28, 28, 28, 0.5);
+  font-family: "Monotype Corsiva";
+  height: 100%;
+  margin: auto;
+  padding: 5px 5px;
+  width: 60vw;
+  background-color: #eeff66;
+}
+.tarto h1 {
+  color: #000066;
+  padding-top: 15px;
+  text-align: center;
+}
+.tarto .hetek {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.tarto hr {
+  background-color: rgb(164, 2, 2);
+  border: none;
+  height: 2px;
+}
+.tarto hr.fel {
+  height: 1px;
+}
+.tarto p {
+  color: #000066;
+  font-family: "Courier";
+}
+.tarto p.kozep {
+  font-family: "Monotype Corsiva";
+  text-align: center;
+}
+.tarto p.jobb {
+  font-family: "Monotype Corsiva";
+  text-align: right;
+}
+
+.nap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nap .menu {
+  padding-left: 50px;
+}
+.nap .kep {
+  width: 200px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.nap .kep img {
+  width: 100%;
+}
+
+.napok {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.napok .logo {
+  width: 200px;
+}
+.napok .logo img {
+  width: 100%;
+}
+
+.arak table {
+  color: #000066;
+  font-family: "Courier";
+  font-size: 2em;
+  font-weight: bolder;
+  width: 100%;
+}
+.arak table td:nth-child(2) {
+  text-align: right;
+}/*# sourceMappingURL=stilus.css.map */
